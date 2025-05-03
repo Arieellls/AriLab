@@ -1,6 +1,16 @@
 export const projects = [
   {
     id: 1,
+    description:
+      "A clean card design with perfect centering and subtle shadows.",
+    tags: ["HTML", "CSS"],
+    image: "https://images.pexels.com/photos/577585/pexels-photo-577585.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    liveUrl: "#",
+    codeUrl: "#",
+    difficulty: "Newbie",
+  },
+  {
+    id: 1,
     title: "QR Code Component",
     description:
       "A clean card design with perfect centering and subtle shadows.",
@@ -62,4 +72,15 @@ export const projects = [
     codeUrl: "#",
     difficulty: "Advanced",
   },
+  {
+    id: 7,
+    title: "Conference Ticket enerator",
+    description: "A responsive and accessible conference ticket generator with full form validation, keyboard navigation, screen reader support, and dynamic ticket display.",
+    tags: ["Vite", "React", "TailwindCSS"],
+    image: "/conference-ticket-generator.png",
+    liveUrl: "https://arilab-conference-ticket-generator.vercel.app/",
+    codeUrl: "#",
+    difficulty: "Junior",
+  },
+  
 ];
